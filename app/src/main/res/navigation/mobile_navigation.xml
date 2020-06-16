@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.roeico7.dogadopt.Home.MainFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_navigation_home_to_chatFrag"
+            app:destination="@id/chatFrag" />
+        <action
+            android:id="@+id/action_navigation_home_self"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_home_to_displayDog"
+            app:destination="@id/displayDog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_dog"
+        android:name="com.roeico7.dogadopt.MyDogs.addDog.AddDog"
+        android:label="Add Dog"
+        tools:layout="@layout/add_dog_fragment" >
+        <action
+            android:id="@+id/action_add_dog_to_navigation_myDogs"
+            app:destination="@id/navigation_myDogs" />
+        <action
+            android:id="@+id/action_add_dog_to_dogInfoFragment"
+            app:destination="@id/dogInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.roeico7.dogadopt.Chat.ChatList"
+        android:label="notifications_fragment"
+        tools:layout="@layout/fragment_chat_list">
+        <action
+            android:id="@+id/action_navigation_notifications_to_chatFrag3"
+            app:destination="@id/chatFrag" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.roeico7.dogadopt.Profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/fragment_profile">
+        <argument
+            android:name="uid"
+            app:argType="string"
+            android:defaultValue="null" />
+        <action
+            android:id="@+id/action_navigation_profile_to_chatFrag"
+            app:destination="@id/chatFrag" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_myDogs"
+        android:name="com.roeico7.dogadopt.MyDogs.myDogs.MyDogs"
+        android:label="my_dogs_fragment"
+        tools:layout="@layout/my_dogs_fragment" >
+        <action
+            android:id="@+id/action_navigation_myDogs_to_add_dog"
+            app:destination="@id/add_dog" />
+        <action
+            android:id="@+id/action_navigation_myDogs_to_editDog"
+            app:destination="@id/editDog" />
+        <action
+            android:id="@+id/action_navigation_myDogs_self"
+            app:destination="@id/navigation_myDogs" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/editDog"
+        android:name="com.roeico7.dogadopt.MyDogs.editDog.EditDog"
+        android:label="edit_dog_fragment"
+        tools:layout="@layout/edit_dog_fragment" >
+        <action
+            android:id="@+id/action_editDog_to_navigation_myDogs"
+            app:destination="@id/navigation_myDogs" />
+        <argument
+            android:name="dogToEdit"
+            app:argType="com.roeico7.dogadopt.objects.Dog" />
+        <action
+            android:id="@+id/action_editDog_to_editDogInfo2"
+            app:destination="@id/editDogInfo" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/chatFrag"
+        android:name="com.roeico7.dogadopt.Chat.Chat"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <argument
+            android:name="hisUid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_chatFrag_to_watchProfile2"
+            app:destination="@id/watchProfile" />
+        <action
+            android:id="@+id/action_chatFrag_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/watchProfile"
+        android:name="com.roeico7.dogadopt.Profile.WatchProfile"
+        android:label="WatchProfile" >
+        <argument android:name="hisUid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/dogInfoFragment"
+        android:name="com.roeico7.dogadopt.MyDogs.addDog.AddDogInfo"
+        android:label="fragment_dog_info"
+        tools:layout="@layout/fragment_dog_info" >
+        <argument
+            android:name="dog"
+            app:argType="com.roeico7.dogadopt.objects.Dog" />
+        <action
+            android:id="@+id/action_dogInfoFragment_to_navigation_myDogs"
+            app:destination="@id/navigation_myDogs" />
+    </fragment>
+    <fragment
+        android:id="@+id/editDogInfo"
+        android:name="com.roeico7.dogadopt.MyDogs.editDog.EditDogInfo"
+        android:label="fragment_edit_dog_info"
+        tools:layout="@layout/fragment_edit_dog_info" >
+        <argument
+            android:name="newDog"
+            app:argType="com.roeico7.dogadopt.objects.Dog" />
+        <argument
+            android:name="oldDog"
+            app:argType="com.roeico7.dogadopt.objects.Dog" />
+        <action
+            android:id="@+id/action_editDogInfo_to_navigation_myDogs"
+            app:destination="@id/navigation_myDogs" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayDog"
+        android:name="com.roeico7.dogadopt.Home.DisplayDog"
+        android:label="fragment_display_dog"
+        tools:layout="@layout/fragment_display_dog" >
+        <argument
+            android:name="dog"
+            app:argType="com.roeico7.dogadopt.objects.Dog" />
+        <action
+            android:id="@+id/action_displayDog_to_chatFrag"
+            app:destination="@id/chatFrag" />
+    </fragment>
+
+
+</navigation>

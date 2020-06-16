@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DogHouse</string>
+    <string name="title_chat">הודעות</string>
+    <string name="title_dashboard">הכלבים שלי</string>
+    <string name="title_home">בית</string>
+    <string name="title_profile">פרופיל</string>
+
+
+
+    <string name="age">גיל</string>
+    <string name="approve">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="changes_saved">השינויים שלך נשמרו!</string>
+    <string name="chat_action">פעולת צ\'אט!</string>
+    <string name="choose_action">בחר פעולה:</string>
+    <string name="contact_owner">צור קשר עם הבעלים של</string>
+    <string name="creating_profile">יוצר את הפרופיל שלך!</string>
+    <string name="decline">סירוב</string>
+    <string name="delete_dog">האם ברצונך להסיר את</string>
+    <string name="delete_message">מחיקת הודעה!</string>
+    <string name="delete_message_text">אתה רוצה למחוק את ההודע הזו?</string>
+    <string name="delivered">נשלח</string>
+    <string name="dismiss">ביטול</string>
+    <string name="dog_removal">מחיקת כלב!</string>
+    <string name="dog_upload_finish">הכלב פורסם בהצלחה!</string>
+    <string name="email_used">כתובת דואר אלקטרוני כבר בשימוש</string>
+    <string name="empty_field">שדה ריק</string>
+    <string name="empty_message">אי אפשר לשלוח הודעה ריקה</string>
+    <string name="error_occured">התרחשה תקלה</string>
+    <string name="female">נקבה</string>
+    <string name="fill_details">אנא מלא את כל הפרטים</string>
+    <string name="fill_field">אנא מלא את השדה</string>
+    <string name="gender">מין</string>
+    <string name="invalid_email">כתותב דואר אלקטרוני אינה תקינה</string>
+    <string name="invalid_phone_length">אורך מספר הטלפון אינו תקין</string>
+    <string name="invalid_phone_prefix">קידומת מספר הטלפון לא תקינה</string>
+    <string name="km">ק\"מ</string>
+    <string name="last_seen">נראה לאחרונה ב:</string>
+    <string name="logging_in">מבצע התחברות למערכת</string>
+    <string name="male">זכר</string>
+    <string name="message_deleted">ההודעה הזו נמחקה</string>
+    <string name="my_dog">כלב שלי</string>
+    <string name="new_message">הודעה חדשה</string>
+    <string name="offline">מנותק</string>
+    <string name="ok">אישור</string>
+    <string name="permission_denied">הרשאה נדחתה</string>
+    <string name="permission_denied_message">ההרשאה למיקום מכשיר נדחתה לצמיתות. עליך לעבור להגדרות כדי לאפשר את ההרשאה.</string>
+    <string name="phone_used">מספר הטלפון כבר בשימוש</string>
+    <string name="please_wait">אנא המתן...</string>
+    <string name="save_dog">שומרים את הכלב שלך</string>
+    <string name="searching_dogs">מחפש כלבים באיזור</string>
+    <string name="seen">נראה</string>
+    <string name="select_race">בחר גזע:</string>
+    <string name="type">גזע</string>
+    <string name="typing">כותב...</string>
+    <string name="unable_location">מיקום אחרון אינו ידוע</string>
+    <string name="updating">מעדכן</string>
+    <string name="updating_profile">מעדכן את הפרופיל שלך</string>
+    <string name="upload_progress">העלאה מתבצעת</string>
+    <string name="username_used">שם משתמש תופס</string>
+    <string name="weak_password">הסיסמא חייבת להכיל מעל ל 6 תווים</string>
+    <string name="woof">ווף ווף!</string>
+    <string name="years_old">גיל</string>
+    <string name="notifications">הודעות</string>
+
+
+    <string name="ui_address">כתובת:</string>
+    <string name="ui_personal_information">פרטים אישיים:</string>
+    <string name="ui_logout">התנתקות</string>
+    <string name="ui_add">הוסף</string>
+    <string name="ui_dog_name">שם הכלב</string>
+    <string name="ui_race">גזע</string>
+    <string name="ui_age">גיל</string>
+    <string name="ui_male">זכר</string>
+    <string name="ui_save">שמור</string>
+    <string name="ui_start_typing">הקלד הודעה</string>
+    <string name="ui_cancel">ביטול</string>
+    <string name="ui_enter_full_name">הכנס שם מלא</string>
+    <string name="ui_permission_request">בקשת גישה</string>
+    <string name="ui_permission_text">האפליקצייה זקוקה לגישה אל מיקום המכשיר על מנת לקבוע את כתובתך. אנא אשר גישה זו</string>
+    <string name="ui_grant_permission">אשר גישה</string>
+    <string name="ui_search_location">חפש את הכתובת שלך</string>
+    <string name="ui_save_address">שמור כתובת</string>
+    <string name="ui_next">הבא</string>
+    <string name="ui_email_address">דואר אלקטרוני</string>
+    <string name="ui_password">סיסמא</string>
+    <string name="ui_login">התחברות</string>
+    <string name="ui_username">שם משתמש</string>
+    <string name="ui_mobile_number">מספר טלפון</string>
+    <string name="ui_signup">הרשמה</string>
+    <string name="ui_have_account">יש ברשותך משתמש?</string>
+    <string name="ui_checking_for_updates">מחפש אחר עידכונים</string>
+    <string name="ui_update_complete">העידכון הושלם</string>
+    <string name="ui_basic_info">פרטים בסיסים</string>
+    <string name="ui_additional_info">פרטים נוספים</string>
+    <string name="ui_dog_description">ספר לנו על הכלב שלך...</string>
+
+
+
+    <string name="ui_service_dog">כלב שירות</string>
+    <string name="ui_vaccinated">מחוסן</string>
+    <string name="ui_mouth_guard">מחסום פה</string>
+    <string name="ui_neutered_sterile">מסורס/מעוקר</string>
+    <string name="ui_friendly">חברותי</string>
+    <string name="ui_healthy">בריא</string>
+    <string name="ui_aggressive">תוקפני</string>
+    <string name="ui_trained">מאולף</string>
+
+
+
+    <string name="ui_about">אודות</string>
+    <string name="ui_my_dog_is">הכלב שלי :</string>
+    <string name="ui_all_about">הכירו את</string>
+    <string name="ui_dog_description_untranslateable">אנא צור קשר עם הבעלים לקבלת פרטים נוספים אודות הכלב</string>
+
+    <string name="ui_retry">נסה שוב</string>
+    <string name="ui_verify_your_number">אימות מספר טלפון</string>
+    <string name="ui_waiting_verify">ממתין לאימות..</string>
+    <string name="ui_enter_phone">אנא הקלד את מספר הטלפון שלך</string>
+    <string name="ui_cancel_register">ביטול הרשמה</string>
+    <string name="ui_cancel_register_text">האם ברצונך לבטל את תהליך ההרשמה?</string>
+
+
+    <string name="ui_verification_failed">האימות נכשל</string>
+    <string name="ui_verification_failed_text">לא הצלחנו לאמת את מספר הטלפון שלך. \n האם תרצה לנסות שוב?</string>
+
+
+    <string name="ui_user_logout">ניתוק משתמש</string>
+    <string name="ui_user_logout_text">האם תרצה להתנתק מהמערכת?</string>
+    <string name="ui_verify">אימות</string>
+
+</resources>

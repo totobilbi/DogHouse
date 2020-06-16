@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.roeico7.dogadopt.Home.DisplayBasicInfo">
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/add_dog_pic_border"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/tv_dog_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Name"
+        android:textColor="#414141"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_icon" />
+
+
+    <TextView
+        android:id="@+id/tv_dog_type2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/DogDisplayText"
+        android:text="type"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/paw_icon2"
+        app:layout_constraintStart_toEndOf="@+id/paw_icon2"
+        app:layout_constraintTop_toTopOf="@+id/paw_icon2" />
+
+    <TextView
+        android:id="@+id/tv_dog_gender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/DogDisplayText"
+        android:text="gender"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gender_icon2"
+        app:layout_constraintStart_toEndOf="@+id/gender_icon2"
+        app:layout_constraintTop_toTopOf="@+id/gender_icon2" />
+
+    <ImageView
+        android:id="@+id/paw_icon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/paw_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline25" />
+
+
+    <TextView
+        android:id="@+id/tv_dog_age2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="age"
+        android:textAppearance="@style/DogDisplayText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/age_icon2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_dog_gender2"
+        app:layout_constraintStart_toEndOf="@+id/age_icon2"
+        app:layout_constraintTop_toTopOf="@+id/age_icon2" />
+
+    <ImageView
+        android:id="@+id/gender_icon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/gender_icon"
+        app:layout_constraintBottom_toTopOf="@+id/age_icon2"
+        app:layout_constraintStart_toStartOf="@+id/paw_icon2"
+        app:layout_constraintTop_toBottomOf="@+id/paw_icon2" />
+
+    <ImageView
+        android:id="@+id/age_icon2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/age_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gender_icon2" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/dog_house_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_dog_name2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dog_type2"
+        fbutton:srcCompat="@drawable/dog_house_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+<!--<TextView-->
+<!--android:id="@+id/tv_dog_type2"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="8dp"-->
+<!--android:fontFamily="@font/bungee_inline"-->
+<!--android:text="type"-->
+<!--android:textColor="#414141"-->
+<!--android:textSize="24sp"-->
+<!--android:textStyle="bold"-->
+<!--app:layout_constraintEnd_toEndOf="@+id/paw_icon2"-->
+<!--app:layout_constraintStart_toStartOf="@+id/paw_icon2"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/paw_icon2" />-->
+
+<!--<TextView-->
+<!--android:id="@+id/tv_dog_gender2"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="8dp"-->
+<!--android:fontFamily="@font/bungee_inline"-->
+<!--android:text="gender"-->
+<!--android:textColor="#414141"-->
+<!--android:textSize="24sp"-->
+<!--android:textStyle="bold"-->
+<!--app:layout_constraintEnd_toEndOf="@+id/gender_icon2"-->
+<!--app:layout_constraintStart_toStartOf="@+id/gender_icon2"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/gender_icon2" />-->
+
+<!--<ImageView-->
+<!--android:id="@+id/paw_icon2"-->
+<!--android:layout_width="50dp"-->
+<!--android:layout_height="50dp"-->
+<!--android:layout_marginStart="32dp"-->
+<!--android:layout_marginBottom="32dp"-->
+<!--android:src="@drawable/paw_icon"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/guideline24"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="@+id/guideline25" />-->
+
+
+<!--<TextView-->
+<!--android:id="@+id/tv_dog_age2"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="8dp"-->
+<!--android:fontFamily="@font/bungee_inline"-->
+<!--android:text="age"-->
+<!--android:textColor="#414141"-->
+<!--android:textSize="24sp"-->
+<!--android:textStyle="bold"-->
+<!--app:layout_constraintEnd_toEndOf="@+id/age_icon2"-->
+<!--app:layout_constraintStart_toStartOf="@+id/age_icon2"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/age_icon2" />-->
+
+<!--<ImageView-->
+<!--android:id="@+id/gender_icon2"-->
+<!--android:layout_width="50dp"-->
+<!--android:layout_height="50dp"-->
+<!--android:layout_marginBottom="32dp"-->
+<!--android:src="@drawable/gender_icon"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/guideline24"-->
+<!--app:layout_constraintEnd_toStartOf="@+id/age_icon2"-->
+<!--app:layout_constraintStart_toEndOf="@+id/paw_icon2"-->
+<!--app:layout_constraintTop_toTopOf="@+id/guideline25" />-->
+
+<!--<ImageView-->
+<!--android:id="@+id/age_icon2"-->
+<!--android:layout_width="50dp"-->
+<!--android:layout_height="50dp"-->
+<!--android:layout_marginEnd="32dp"-->
+<!--android:layout_marginBottom="32dp"-->
+<!--android:src="@drawable/age_icon"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/guideline24"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="@+id/guideline25" />-->
+
+
+<!--<androidx.constraintlayout.widget.Guideline-->
+<!--android:id="@+id/guideline23"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--app:layout_constraintGuide_percent="0.4" />-->
+
+<!--<androidx.constraintlayout.widget.Guideline-->
+<!--android:id="@+id/guideline25"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--app:layout_constraintGuide_percent="0.5" />-->
+
+<!--<androidx.constraintlayout.widget.Guideline-->
+<!--android:id="@+id/guideline24"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="horizontal"-->
+<!--app:layout_constraintGuide_percent="0.8" />-->

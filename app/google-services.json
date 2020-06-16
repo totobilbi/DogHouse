@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "130385904174",
+    "firebase_url": "https://dogadopt-48657.firebaseio.com",
+    "project_id": "dogadopt-48657",
+    "storage_bucket": "dogadopt-48657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130385904174:android:e0a43c47aca179707095bf",
+        "android_client_info": {
+          "package_name": "com.roeico7.dogadopt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130385904174-g9v331cmvjr3cuip2ibaus39ii1o2jq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dogadopt",
+            "certificate_hash": "6a53f4f2e6c7986bd95cf990ba31eb7d1a0e5603"
+          }
+        },
+        {
+          "client_id": "130385904174-8o25g54eojtsan9mr44t73nnilpmjp97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roeico7.dogadopt",
+            "certificate_hash": "d1d5e2dd47ea8be0faf04fd6bc25e698f358ee3a"
+          }
+        },
+        {
+          "client_id": "130385904174-ttuhtpsje1h822aduc5h0k7pphgaj20q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8wFTeTAM-KKmRp9Kf_BZZQjP2mXzxT2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130385904174-ttuhtpsje1h822aduc5h0k7pphgaj20q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "130385904174",
+    "firebase_url": "https://dogadopt-48657.firebaseio.com",
+    "project_id": "dogadopt-48657",
+    "storage_bucket": "dogadopt-48657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130385904174:android:a387a982da6324197095bf",
+        "android_client_info": {
+          "package_name": "com.roeico7.dogadopt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130385904174-2jhutmjemp3q39u1vforrmje1hv5clq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roeico7.dogadopt",
+            "certificate_hash": "b1d238188dc3045ddaaf223695ee68ff2cd7b70c"
+          }
+        },
+        {
+          "client_id": "130385904174-4bj3cgpuqis6k42ra59b5gh7ba5rn969.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roeico7.dogadopt",
+            "certificate_hash": "f48934488dd9b526da1de9a4b7b50c2680712ba3"
+          }
+        },
+        {
+          "client_id": "130385904174-2h0fqitcfmjst7c6qd62nmjqp1gv1h53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roeico7.dogadopt",
+            "certificate_hash": "6a53f4f2e6c7986bd95cf990ba31eb7d1a0e5603"
+          }
+        },
+        {
+          "client_id": "130385904174-ttuhtpsje1h822aduc5h0k7pphgaj20q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8wFTeTAM-KKmRp9Kf_BZZQjP2mXzxT2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130385904174-ontq9qjn7dnh0at87oq7e1j6r0p4urru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
